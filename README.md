@@ -1,4 +1,4 @@
-# This is an CO2 Sensor MQTT Bridge.
+# This is a CO2 Sensor MQTT Bridge.
 It forwards messages from the MH-Z19 Co2 sensor attached via serial to an mqtt topic in regular intervals.
 It is useful if you want to monitor Co2 concentration in multiple rooms in Homeassistant.
 My setup looks like this:
@@ -26,7 +26,7 @@ My setup looks like this:
    +-----+               +-----+
 ```
 
-On _Raspi1_, connect the MH-Z19 to the pis GPIOs:
+On _Raspi1_, connect the MH-Z19 to the GPIOs:
 
 
 |RPi Pin|MH-Z19|
