@@ -1,0 +1,12 @@
+[Unit]
+Description=CO2 Reporting Service
+After=network.target
+
+[Service]
+Type=simple
+User=pi
+ExecStart=/home/pi/co2bridge/co2bridge.py
+Restart=on-failure
+
+[Install]
+WantedBy = multi-user.target
